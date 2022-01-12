@@ -13,9 +13,9 @@ for command line compilation using avr-gcc. Programs are written in C (not C++).
 
 Communication with the boards in the form of uploading and user input and output
 can be achieved with the single USB cable. However, you will need to install the LUFA
-libraries. We will not be using LUFA for another week.
+libraries. We will not be using LUFA for another week or so.
 
-*PRIOR to CLASS*: please install the Arduino IDE, as well as the required components
+Please install the Arduino IDE, as well as the required components
 for using gcc with avrdude (directions below).
 
 _HARDWARE_: AStar 32U4 Board from Pololu. It uses the AtMega32U microprocessor.
@@ -38,5 +38,7 @@ Instructions here: https://www.pololu.com/docs/0J66/4.3
 
 With homebrew, try this:`brew cask install crosspack-avr`
 
-It is possible to use the IDE Atmel Studio for development (Windows only). It is a little fussy, but once you get it working, it's pretty easy.
-	http://www.atmel.com/tools/ATMELSTUDIO.aspx
+There is an issue with Mac's that is probably still unresolved. If you get the error
+"zsh: bad CPU type in executable: avr-gcc", then follow these directions:
+https://ece-classes.usc.edu/ee459/library/toolchain_mac64/
+
