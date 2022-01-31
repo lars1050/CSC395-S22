@@ -2,6 +2,7 @@
 
 #### Lab 3 : Blinking LEDs with Button Interrupts
 > CODE DUE: Wednesday, February 9 before class <br>
+> STATE MACHINE sketch DUE: Wednesday, February 2 end of class<br>
 > Submit via Moodle (zipped).
 
 <hr>
