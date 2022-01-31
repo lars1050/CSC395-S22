@@ -6,6 +6,7 @@
 > Submit via Moodle (zipped).
 
 <hr>
+
 **__RESOURCES__**
 
 The "cheat sheet" for AStar hardware:
@@ -36,7 +37,7 @@ Readings on state machines on Moodle.
 
 ## Coding
 
-Start by copying your completed lab 2 to a new folder to start on lab 3. Look through buttons.h and buttons.c below and add the code to your lab 3 project. Complete the code for buttons.c and make sure it compiles before moving on.
+Start by copying your completed lab 2 to a new folder to start on lab 3. Take the main.c from this lab and use it instead. Look through buttons.h and buttons.c below and add the code to your lab 3 project. Complete the code for buttons.c and make sure it compiles before moving on.
 
 Test your new code by creating a function that blinks or toggles an LED. Set up a button to use this function as a callback for when the button is pressed. Then change it to be the callback for releasing the button to ensure everything is working properly.
 
