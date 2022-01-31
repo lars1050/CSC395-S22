@@ -6,6 +6,12 @@
 > Submit via Moodle (zipped).
 
 <hr>
+**__RESOURCES__**
+
+The "cheat sheet" for AStar hardware:
+https://github.com/lars1050/CSC395-S22/blob/main/HardwareResources/AStarCheatSheet.md
+
+Readings on state machines on Moodle.
 
 **__FUNCTIONAL REQUIREMENTS__**
 
