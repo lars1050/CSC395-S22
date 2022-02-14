@@ -33,15 +33,15 @@ Use the release of button C to increase the frequency up to the 100% duty cycle.
 
 If you are on a Mac or Linux, you can try following the instructions for LUFA and see if it will work!
 
-https://github.com/lars1050/CSC395_S22/tree/master/ExampleCode/basic-lufa
+https://github.com/lars1050/CSC395-S22/tree/main/ExampleCode/basic-lufa
 
-When you are ready to test it out, make and run the example https://github.com/lars1050/CSC395_S22/tree/master/ExampleCode/basic-lufa/example. You use `screen` (as indicated in the directions) to manage the communication.
+When you are ready to test it out, make and run the example https://github.com/lars1050/CSC395-S22/tree/main/ExampleCode/basic-lufa/example. You use `screen` (as indicated in the directions) to manage the communication.
 
 Any code that you write must call `SetupHardware()` and any time that you want to send or receive data, you call `USB_Mainloop_Handler()`. Use the Makefile provided with the example.
 
 **If you are on Windows**, you can try it, but I don't think it will work. I have hardware for serial communication using a dongle that has to be plugged in to where one of the LEDs is plugged in.
 
-https://github.com/lars1050/CSC395_S22/tree/master/ExampleCode/basic-serial
+https://github.com/lars1050/CSC395-S22/tree/main/ExampleCode/basic-serial
 
 Use the 'f' key to change the frequency of the LED controlled by the PWM. Decrease the frequency by some fixed increment when the 'f' key is pressed and increase the frequency when the 'F' key is pressed. The frequency is controlled by the DUTY CYCLE, which is defined as MATCH/TOP.
 
@@ -51,7 +51,7 @@ Use the 'f' key to change the frequency of the LED controlled by the PWM. Decrea
 
 If you get that complete, you can give the user another option to control the **brightness** of the led rather than the blink frequency. To do that, change the frequency of the PWM waveform to something much faster (like 1 ms) and then adjust the duty cycle just as you had before. If you are using buttons, use the release of Button A to switch between modifying blink rate and modifying brightness. Similarly, use Button C to move through the duty cycles. Alternatively, use the 's' key to switch modes, then use the 'b' key to change the brightness.
 
-See the cheat sheet for info: https://github.com/lars1050/CSC395_S22/blob/master/HardwareResources/AStarCheatSheet.md
+See the cheat sheet for info: https://github.com/lars1050/CSC395-S22/blob/main/HardwareResources/AStarCheatSheet.md
 
 <hr>
 
