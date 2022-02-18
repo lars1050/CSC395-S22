@@ -29,7 +29,7 @@ Determine how low of a waveform frequency you can achieve with fast PWM (i.e. th
 
 ### Communication to Control LED Blink Frequency using Button C
 
-Use the release of button C to increase, then decrease, the period of the blink. The period should start just at the edge of visible (maybe 200ms, with 100ms on and 100ms off). Each time the button is released, increase the period. But once you max out the period based on the limits of the timer (or decide on some max value), decrease the period at each button release until you get to your minimum value to start the process again. In other words, modify the TOP and MATCH (the match is always half the TOP to achieve a 50% duty cycle) in the callback function for the release of button C.
+Use the release of button C to increase, then decrease, the period of the blink. The period should start just at the edge of visible (maybe 200ms, with 100ms on and 100ms off). Each time the button is released, increase the period. But once you max out the period based on the limits of the timer (or decide on some max value), decrease the period at each button release until you get to your minimum value to start the process again. In other words, in the callback function for the release of button C, modify the TOP and MATCH (the match is always half the TOP to achieve a 50% duty cycle).
 
 *Sorry for this previous description, which is the optional part that controls the brightness of the LED*. <del>Use the release of button C to increase the frequency up to the 100% duty cycle. Then decrement the duty cycle upon release of button C, until you reach 0%. Then back to 100%, etc.</del> Try to make the logic/code as streamlined as possible.
 
@@ -53,7 +53,7 @@ Use the 'f' key to change the frequency of the LED controlled by the PWM. Decrea
 
 ### Optional: Vary LED Brightness
 
-If you get that complete, you can give the user another option to control the **brightness** of the led rather than the blink frequency. To do that, change the frequency of the PWM waveform to something much faster (like 1 ms) and then adjust the duty cycle (i.e. the TOP is fixed, but the MATCH is changing). If you are using buttons, use the release of Button A to switch between modifying blink rate and modifying brightness. Similarly, use Button C to move through the duty cycles. Alternatively, use the 's' key to switch modes, then use the 'b' key to change the brightness.
+If you get that complete, you can give the user another option to control the **brightness** of the led rather than the blink frequency. To do that, change the frequency of the PWM waveform to something much faster (like 1 ms) and then adjust the duty cycle (i.e. the TOP is fixed, but the MATCH is changing). If you are using buttons, use the release of Button A to switch between modifying blink rate and modifying brightness. Similarly, use Button C to move through the duty cycles. Alternatively, use the 's' key to switch modes, then use the 'b' key to change the brightness. *Note that one way to achieve this is to change the callback function for button C whenever button A is released*.
 
 See the cheat sheet for info: https://github.com/lars1050/CSC395-S22/blob/main/HardwareResources/AStarCheatSheet.md
 
