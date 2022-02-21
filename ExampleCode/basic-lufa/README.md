@@ -11,7 +11,7 @@ This is a basic example that enables serial communication with stdio.
 -. <del>Download the [current VirtualSerial.tgz] (https://github.umn.edu/jpwalz/basic-lufa-serial/releases/latest) archive.</del>
 
 -. <del>Extract the library somewhere on your machine and take note of the path. This will be assigned to VIRTUAL_SERIAL_PATH.<del>
-1. Download the VirtualSerial folder (https://github.com/lars1050/CSC395_S20/tree/master/ExampleCode/VirtualSerial) and place somewhere memorable.
+1. Download the VirtualSerial folder (https://github.com/lars1050/CSC395-S22/tree/main/ExampleCode/VirtualSerial) and place somewhere memorable.
 2. At the OS command prompt, add the path that corresponds to your VirtualSerial folder location, for example:
   ```export VIRTUAL_SERIAL_PATH=/Users/amylarson/RTES/VirtualSerial```
 3. Use stdin/stdout with the [stdio] (http://www.nongnu.org/avr-libc/user-manual/group__avr__stdio.html) library.
@@ -21,7 +21,7 @@ This is a basic example that enables serial communication with stdio.
 
 -. <del>Download [LUFA] (http://www.fourwalledcubicle.com/LUFA.php). ([Direct Download] (http://www.github.com/abcminiuser/lufa/archive/LUFA-151115.zip))</del>
 -. <del>Extract LUFA somewhere on your machine and take note of the path. This will be assigned to LUFA_PATH.</del>
-1. Download the built [LUFA] folder https://github.com/lars1050/CSC395_S20/tree/master/ExampleCode/lufa-LUFA-151115 and place somewhere memorable.
+1. Download the built [LUFA] folder https://github.com/lars1050/CSC395-S22/tree/main/ExampleCode/lufa-LUFA-151115 and place somewhere memorable.
 2. At the OS command prompt, add that path that corresponds to your LUFA folder, for example:
   ```export LUFA_PATH=/Users/amylarson/RTES/lufa-LUFA-151115/LUFA/```
 3. Move into the 'basic-lufa' directory.
