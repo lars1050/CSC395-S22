@@ -17,8 +17,8 @@ You will need to use these pins for the example code. You can change how you con
 
 |Color | Function| Pin |
 |-----|-----|-----|
-| Red | motor power/ground | motor 2, green header (B6) |
-| Black | motor power/ground | motor 2, green header (B6)
+| Red | motor power | M2A, green header (B6) |
+| Black | motor power | M2B, green header (B6)
 | Green | encoder GND | |
 | Blue | encoder Vcc | D1 (astar 2) |
 | Yellow | encoder A | B4, PCINT 4 (astar 8) |
