@@ -20,4 +20,4 @@ On MAC:
    screen /dev/tty.usbserial 38400
    "ctrl+a" "ctrl+\" "y"
 
-38400 is the baud rate.
+9600 is the baud rate.
