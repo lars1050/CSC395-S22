@@ -18,7 +18,6 @@ void adc_init() {
 // read adc value
 uint16_t adc_read(uint8_t channel) {
 
-  ADMUX &= clear_channel;
   if (channel >= 8) {
     ADCSRB |= (1<<MUX5);
     ADMUX |= (channel - 8);
